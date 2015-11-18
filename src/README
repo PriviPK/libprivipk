@@ -1,0 +1,3 @@
+To install this to your local machine:
+
+    sudo python setup.py install
