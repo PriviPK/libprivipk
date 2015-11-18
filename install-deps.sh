@@ -36,7 +36,7 @@ cd $prevdir
 
 echo -e "\nCloning (modified) Charm crypto libary...\n"
 if [ ! -d charm/ ]; then
-    git clone git@github.com:PriviPK/charm.git
+    git clone https://github.com/PriviPK/charm.git
     prevdir=`pwd`
     cd charm/
     git checkout 2.7-dev
